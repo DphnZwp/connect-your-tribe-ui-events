@@ -14,9 +14,21 @@ buttons.forEach(button => {
 
 	// Keydown event listener
 	window.addEventListener('keydown', function(event) { 
-		if (event.key === 's') {
+		if (event.key === 'x') {
 			button.classList.remove('purple')
 			button.classList.remove('cyan')
 		}
+	})
+
+	// Long press
+
+	// Mousedown event listener
+	button.addEventListener('mousedown', function() { 
+		button.classList.add('dark-blue')
+	})
+
+	// Mousedown event listener
+	button.addEventListener('mouseup', function() { 
+		button.classList.remove('dark-blue')
 	})
 })

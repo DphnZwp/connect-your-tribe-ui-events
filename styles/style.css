@@ -55,7 +55,7 @@ a:hover {
    color: var(--secondary);
 }
 
-.remove-all {
-   background:var(--secondary);
+.dark-blue {
+   background: var(--secondary);
    color: var(--highlight-primary);
 }
