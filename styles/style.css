@@ -49,3 +49,13 @@ a:hover {
    color:var(--secondary);
    border:var(--secondary);
 }
+
+.cyan {
+   background:var(--highlight-primary);
+   color: var(--secondary);
+}
+
+.remove-all {
+   background:var(--secondary);
+   color: var(--highlight-primary);
+}
