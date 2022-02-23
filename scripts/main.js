@@ -14,21 +14,29 @@ buttons.forEach(button => {
 
 	// Keydown event listener
 	window.addEventListener('keydown', function(event) { 
-		if (event.key === 'x') {
+		if (event.key === 'z') {
 			button.classList.remove('purple')
 			button.classList.remove('cyan')
+			button.classList.remove('red')
 		}
 	})
 
 	// Long press
 
 	// Mousedown event listener
-	button.addEventListener('mousedown', function() { 
-		button.classList.add('dark-blue')
-	})
+	button.addEventListener('mousedown', function() {
+		const self = this
+  timer = setTimeout(()=>{
+    self.classList.add('red')
+  }, 2000)
+})
 
-	// Mousedown event listener
-	button.addEventListener('mouseup', function() { 
-		button.classList.remove('dark-blue')
-	})
+button.addEventListener('mouseup', function() {
+	clearTimeout(timer)
+})
+
+	// Device orientation event listener
+	button.addEventListener('orientationchange', function() { 
+		button.classList.add('red')
+		},false)
 })
