@@ -22,18 +22,18 @@ buttons.forEach(button => {
 	})
 
 	// Long press
-
 	// Mousedown event listener
 	button.addEventListener('mousedown', function() {
 		const self = this
-  timer = setTimeout(()=>{
-    self.classList.add('red')
-  }, 2000)
-})
+		timer = setTimeout(()=>{
+			self.classList.add('red')
+		}, 2000)
+	})
 
-button.addEventListener('mouseup', function() {
-	clearTimeout(timer)
-})
+	// Mousedown event listener
+	button.addEventListener('mouseup', function() {
+		clearTimeout(timer)
+	})
 
 	// Device orientation event listener
 	button.addEventListener('orientationchange', function() { 
