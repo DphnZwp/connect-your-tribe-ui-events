@@ -6,6 +6,10 @@ Het is de bedoeling om met verschillende user interface events te experimenteren
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 
+![screencapture-127-0-0-1-5500-index-html-2022-02-25-01_38_46](https://user-images.githubusercontent.com/69635977/155631285-3d3cd1f3-191d-48dc-8197-6cc8f03a4d07.png)
+
+**Dit is hoe het eruit ziet wanneer je de handleiding opent.**
+
 ![screencapture-127-0-0-1-5500-index-html-2022-02-25-01_18_12](https://user-images.githubusercontent.com/69635977/155629580-06371755-e631-4dd0-81e7-e53dbce5308f.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
