@@ -1,4 +1,23 @@
 const buttons = document.querySelectorAll('a')
+const menu = document.querySelector("nav");
+const menuButton = document.querySelector("#help");
+const closeButton = document.querySelector("#close")
+
+// Show menu
+document.addEventListener('keydown', function(event) {
+	if (event.code === 'Space') {
+		menu.classList.toggle("hide");
+	}
+})
+
+// Show and close menu with buttons
+menuButton.addEventListener('click', function() {
+	menu.classList.remove("hide");
+})
+
+closeButton.addEventListener('click', function() {
+	menu.classList.add("hide");
+})
 
 buttons.forEach(button => {
 
@@ -17,7 +36,7 @@ buttons.forEach(button => {
 		if (event.key === 'z') {
 			button.classList.remove('purple')
 			button.classList.remove('cyan')
-			button.classList.remove('red')
+			button.classList.remove('orange')
 		}
 	})
 
@@ -26,7 +45,7 @@ buttons.forEach(button => {
 	button.addEventListener('mousedown', function() {
 		const self = this
 		timer = setTimeout(()=>{
-			self.classList.add('red')
+			self.classList.add('orange')
 		}, 2000)
 	})
 
@@ -37,6 +56,6 @@ buttons.forEach(button => {
 
 	// Device orientation event listener
 	button.addEventListener('orientationchange', function() { 
-		button.classList.add('red')
+		button.classList.add('yellow')
 		},false)
 })

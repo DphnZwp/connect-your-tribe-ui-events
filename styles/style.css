@@ -4,7 +4,7 @@
 	--secondary: #050840;
 	--highlight-primary:#7ce7c9;
 	--highlight-secondary: #9d7beb;
-	--red: #eb9d7b;
+	--orange: #eb9d7b;
 	--yellow: #ebd57b;
 	--radius:.5rem;
 	--pill: 2rem;
@@ -15,7 +15,7 @@
 }
 
 body{
-	margin: 2rem; 
+	margin: 0; 
 	padding: 0;
 	font-family: "Open Sans", sans-serif;
 	font-size: 2rem;
@@ -23,8 +23,45 @@ body{
 	color: var(--primary);
 }
 
+h1 {
+	margin: 0.25em 0 -0.25em 0;
+	padding: 0;
+	font-size: 3.125rem;
+}
+
 section{
 	max-width: 90vw;
+}
+
+/* Navigation */
+
+label[for="help"]{
+	margin-left: .2em;
+	font-size: 1rem;
+}
+
+nav {
+	width: 14em;
+	margin-left: .2em;
+	transition: all 1.5s ease-in-out;
+}
+
+.hide{
+	margin-left: -36em;
+}
+
+li {
+	line-height: 1.8;
+}
+
+button {
+	margin: 1.5em 0 0 .2em;
+	padding: .4em 0.8em;
+	font-weight: bold;
+  border: none;
+	background-color: var(--highlight-primary);
+	border-radius: var(--pill);
+	cursor: pointer;
 }
 
 /* Buttons */
@@ -44,11 +81,15 @@ a {
 
 a:hover {
 	transform: scale(0.8);
- }
+}
 
- a:focus {
+a:focus {
 	transform: scale(1);
- }
+}
+
+.buttons {
+	margin-top: 1rem;
+}
 
 .purple{
 	background:var(--highlight-secondary);
@@ -66,10 +107,20 @@ a:hover {
 	color: var(--highlight-primary);
 }
 
-.red {
-  background-color: var(--red);
+.orange {
+  background-color: var(--orange);
+	color: var(--secondary);
 }
 
 .yellow {
 	background-color: var(--yellow);
+	color: var(--secondary);
+}
+
+/* DESKTOP */
+
+@media (min-width: 70em) {
+	nav {
+		width: max-content;
+	}
 }
