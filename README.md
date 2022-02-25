@@ -12,7 +12,7 @@ Het is de bedoeling om met verschillende user interface events te experimenteren
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_51_30](https://user-images.githubusercontent.com/69635977/155726673-169063c7-393a-4ba5-b3b5-2df4cd072abe.png)
 
-<!-- Voeg een link toe naar Github Pages 🌐-->
+[https://daphneuievents.student.fdnd.nl/](https://daphneuievents.student.fdnd.nl/)
 
 ## Experimenten
 <!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
