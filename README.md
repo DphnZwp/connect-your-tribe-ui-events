@@ -10,7 +10,7 @@ Het is de bedoeling om met verschillende user interface events te experimenteren
 
 **Dit is hoe het eruit ziet wanneer je de handleiding opent.**
 
-![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_36_57](https://user-images.githubusercontent.com/69635977/155724595-bcedd2bc-40a2-4228-a18a-0b80182f340a.png)
+![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_51_30](https://user-images.githubusercontent.com/69635977/155726673-169063c7-393a-4ba5-b3b5-2df4cd072abe.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
