@@ -3,14 +3,14 @@
 # Experimenteren met ui events
 Het is de bedoeling om met verschillende user interface events te experimenteren, zoals click, double-click, key-down, long-press en device-motion.
 
+![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_38_20](https://user-images.githubusercontent.com/69635977/155724756-98da1037-5535-4f7c-a954-0adc8782126f.png)
+
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 
-![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_36_57](https://user-images.githubusercontent.com/69635977/155724595-bcedd2bc-40a2-4228-a18a-0b80182f340a.png)
-
 **Dit is hoe het eruit ziet wanneer je de handleiding opent.**
 
-![screencapture-127-0-0-1-5500-index-html-2022-02-25-01_18_12](https://user-images.githubusercontent.com/69635977/155629580-06371755-e631-4dd0-81e7-e53dbce5308f.png)
+![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_36_57](https://user-images.githubusercontent.com/69635977/155724595-bcedd2bc-40a2-4228-a18a-0b80182f340a.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
