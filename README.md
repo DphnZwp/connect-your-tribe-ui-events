@@ -4,15 +4,28 @@
 Het is de bedoeling om met verschillende user interface events te experimenteren, zoals click, double-click, key-down, long-press en device-motion.
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Ik heb drie verschillende experimenten met JavaScript events gedaan om de kleuren van knoppen te veranderen. Device-motion werkte niet. Dus ik heb alleen click, double-click, key-down en long-press.
 
 **Begin scherm**
 
-![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_38_20](https://user-images.githubusercontent.com/69635977/155724756-98da1037-5535-4f7c-a954-0adc8782126f.png)
+![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_26_46](https://user-images.githubusercontent.com/69635977/155848771-99f0dd69-0ae3-4a95-b597-8a43d3a44dca.png)
 
-**Dit is hoe het eruit ziet wanneer je de handleiding opent**
+### Click
+Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
 
-![screencapture-127-0-0-1-5500-index-html-2022-02-25-14_51_30](https://user-images.githubusercontent.com/69635977/155726673-169063c7-393a-4ba5-b3b5-2df4cd072abe.png)
+![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_39_54](https://user-images.githubusercontent.com/69635977/155851327-e2391c34-f3ea-468a-8a23-c194444dd6c4.png)
+
+### Double-click
+Je kan de kleur van een knop in groen veranderen wanneer je op een knop dubbel klikt.
+
+![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_55_00](https://user-images.githubusercontent.com/69635977/155851816-13417e7a-25ee-459d-82d8-79ac20e70726.png)
+
+### Long-press
+Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
+
+### Handleiding
+
+![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_27_01](https://user-images.githubusercontent.com/69635977/155848776-06884a11-5916-46e5-869d-f336ea62cd4f.png)
 
 ### Link van de website
 [https://daphneuievents.student.fdnd.nl/](https://daphneuievents.student.fdnd.nl/)
