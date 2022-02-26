@@ -4,7 +4,7 @@
 Het is de bedoeling om met verschillende user interface events te experimenteren, zoals click, double-click, key-down, long-press en device-motion.
 
 ## Beschrijving
-Ik heb drie verschillende experimenten gedaan om de kleuren van knoppen te veranderen. Device-motion werkte niet. Dus ik heb alleen click, double-click, key-down en long-press. 
+Ik heb drie verschillende experimenten met JavaScript events gedaan om de kleuren van knoppen te veranderen. Device-motion werkte niet. Dus ik heb alleen click, double-click, key-down en long-press. 
 
 ### Click
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
