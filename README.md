@@ -6,15 +6,15 @@ Het is de bedoeling om met verschillende user interface events te experimenteren
 ## Beschrijving
 Ik heb drie verschillende experimenten gedaan om de kleuren van knoppen te veranderen. Device-motion werkte niet. Dus ik heb alleen click, double-click, key-down en long-press. 
 
-**Click**
+**Click**\
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_39_54](https://user-images.githubusercontent.com/69635977/155851327-e2391c34-f3ea-468a-8a23-c194444dd6c4.png)
 
-**Double-click**
+**Double-click**\
 Je kan de kleur van een knop in groen veranderen wanneer je op een knop dubbel klikt.
 
-**Long-press**
+**Long-press**\
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 3 seconden op een knop klikt.
 
 **Begin scherm**
