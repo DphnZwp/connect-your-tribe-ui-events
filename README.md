@@ -23,7 +23,7 @@ Je kan de kleur van een knop in groen veranderen wanneer je op een knop dubbel k
 ### Long-press
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
 
-**Dit is hoe het eruit ziet wanneer je de handleiding opent**
+### Handleiding
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_27_01](https://user-images.githubusercontent.com/69635977/155848776-06884a11-5916-46e5-869d-f336ea62cd4f.png)
 
