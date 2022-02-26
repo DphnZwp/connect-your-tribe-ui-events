@@ -4,6 +4,17 @@
 Het is de bedoeling om met verschillende user interface events te experimenteren, zoals click, double-click, key-down, long-press en device-motion.
 
 ## Beschrijving
+Ik heb drie verschillende experimenten gedaan om de kleuren van knoppen te veranderen. Device-motion werkte niet. Dus ik heb alleen click, double-click, key-down en long-press. 
+
+### Wat je kan doen met click, double-click en long-press
+#### Click
+Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt. 
+
+#### Double-click
+Met double-click kan je de kleur van een knop in groen veranderen wanneer je op een knop klikt.
+
+#### Long-press
+Met long-press
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 
 **Begin scherm**
