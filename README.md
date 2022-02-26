@@ -14,6 +14,8 @@ Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
 ### Double-click
 Je kan de kleur van een knop in groen veranderen wanneer je op een knop dubbel klikt.
 
+![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_55_00](https://user-images.githubusercontent.com/69635977/155851816-13417e7a-25ee-459d-82d8-79ac20e70726.png)
+
 ### Long-press
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
 
