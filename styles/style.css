@@ -15,7 +15,7 @@
 }
 
 body{
-	margin: 0; 
+	margin-left: .2em;
 	padding: 0;
 	font-family: "Open Sans", sans-serif;
 	font-size: 2rem;
@@ -24,9 +24,14 @@ body{
 }
 
 h1 {
-	margin: 0.25em 0 -0.25em 0;
+	margin: 0.25em 0 0.25em 0;
 	padding: 0;
 	font-size: 3.125rem;
+}
+
+h2 {
+	margin-top: 0.25em;
+	font-size: 2.5rem;
 }
 
 section{
@@ -40,9 +45,23 @@ label[for="help"]{
 	font-size: 1rem;
 }
 
+.a-device {
+	margin-top: 1.5em;
+	padding: .4em 0.8em;
+	font-size: 1rem;
+	color: var(--primary);
+	border: 1px solid var(--primary);
+	cursor: pointer;
+	width: max-content;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
 nav {
 	width: 14em;
-	margin-left: .2em;
 	transition: all 1.5s ease-in-out;
 }
 
@@ -54,7 +73,7 @@ li {
 	line-height: 1.8;
 }
 
-button {
+#help {
 	margin: 1.5em 0 0 .2em;
 	padding: .4em 0.8em;
 	font-weight: bold;
@@ -62,6 +81,22 @@ button {
 	background-color: var(--highlight-primary);
 	border-radius: var(--pill);
 	cursor: pointer;
+	transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#help:hover {
+	transform: scale(0.8);
+}
+
+button, .close {
+	margin: 1.5em 0 -10em .2em;
+	padding: .4em 0.8em;
+	font-weight: bold;
+  border: none;
+	background-color: var(--highlight-primary);
+	border-radius: var(--pill);
+	cursor: pointer;
+	transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* Buttons */

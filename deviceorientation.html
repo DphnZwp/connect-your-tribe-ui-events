@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <a class="a-device" href="index.html">&#5130; Terug naar de knoppen</a>
+  <h1>Device orientation</h1>
+  <h2>Dit werkt alleen op mobiel</h2>
+  <p>Beweeg je mobiel rond. De afbeelding beweegt mee.</p>
+  <div class="main">
+    <h2>Device Motion</h2>
+    <table>
+      <tr>
+        <td>Event Supported</td>
+        <td id="dmEvent"></td>
+      </tr>
+      <tr>
+        <td>accelerationIncludingGravity</td>
+        <td id="moAccel"></td>
+      </tr>
+      <tr>
+        <td>Calculated Left-Right Tilt</td>
+        <td id="moCalcTiltLR"></td>
+      </tr>
+      <tr>
+        <td>Calculated Front-Back Tilt</td>
+        <td id="moCalcTiltFB"></td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="container" style="-webkit-perspective: 300; perspective: 300;">
+    <img src="assets/daphne-laptop.png" id="imgLogo" class="logo">
+  </div>
+  </main>
+  <script src="scripts/devive-orientation.js"></script>
+</body>
+</html>
