@@ -4,11 +4,19 @@
 Het is de bedoeling om met verschillende user interface events te experimenteren, zoals click, double-click, key-down, long-press en device-motion.
 
 ## Beschrijving
-Ik heb drie verschillende experimenten met JavaScript events gedaan om de kleuren van knoppen te veranderen. Device-motion werkte niet. Dus ik heb alleen click, double-click, key-down en long-press.
+Met de website kan je kleuren van knoppen veranderen. De kleuren van de knoppen kan je veranderen door te klikken, dubbel klikken of lang te klikken. Ook kan je de kleuren herstarten met de 'z' toets van je toetsenbord. Als je niet weet wat je met de knoppen kan doen, heb ik ook een gebruikers handleiding gemaakt.
+
+Om kleuren van knoppen te veranderen heb ik verschillende experimenten met event listeners gedaan. Device-motion was het enige event die niet was gelukt. Dus ik heb alleen de events click, double-click, key-down en long-press.
 
 **Begin scherm**
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_26_46](https://user-images.githubusercontent.com/69635977/155848771-99f0dd69-0ae3-4a95-b597-8a43d3a44dca.png)
+
+### Link van de website
+[https://daphneuievents.student.fdnd.nl/](https://daphneuievents.student.fdnd.nl/)
+
+## Experimenten
+Hier zijn alle experimenten die ik heb gedaan voor de drie verschillende event listeners.
 
 ### Click
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
@@ -23,14 +31,13 @@ Je kan de kleur van een knop in groen veranderen wanneer je op een knop dubbel k
 ### Long-press
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
 
+![screencapture-127-0-0-1-5500-index-html-2022-02-26-20_02_21](https://user-images.githubusercontent.com/69635977/155855837-c16fde89-bcc8-47c9-9303-51e232abda8d.png)
+
 ### Handleiding
+Ik heb een handleiding gemaakt, zodat het duidelijker wordt wat de gebruiker met de knoppen kan doen.
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_27_01](https://user-images.githubusercontent.com/69635977/155848776-06884a11-5916-46e5-869d-f336ea62cd4f.png)
 
-### Link van de website
-[https://daphneuievents.student.fdnd.nl/](https://daphneuievents.student.fdnd.nl/)
-
-## Experimenten
 <!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
 <!-- Voeg een mooie poster visual toe 📸 per experiment -->
 
