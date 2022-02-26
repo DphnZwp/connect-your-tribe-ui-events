@@ -5,7 +5,6 @@
 	--highlight-primary:#7ce7c9;
 	--highlight-secondary: #9d7beb;
 	--orange: #eb9d7b;
-	--yellow: #ebd57b;
 	--radius:.5rem;
 	--pill: 2rem;
 }
@@ -134,11 +133,6 @@ a:focus {
 
 .orange {
   background-color: var(--orange);
-	color: var(--secondary);
-}
-
-.yellow {
-	background-color: var(--yellow);
 	color: var(--secondary);
 }
 
