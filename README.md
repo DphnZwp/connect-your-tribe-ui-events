@@ -6,7 +6,7 @@ Het is de bedoeling om met verschillende user interface events te experimenteren
 ## Beschrijving
 Met de website kan je kleuren van knoppen veranderen. De kleuren van de knoppen kan je veranderen door te klikken, dubbel klikken of lang te klikken. Ook kan je de kleuren herstarten met de 'z' toets van je toetsenbord. Als je niet weet wat je met de knoppen kan doen, heb ik ook een gebruikers handleiding gemaakt.
 
-Om kleuren van knoppen te veranderen heb ik verschillende experimenten met event listeners gedaan. De enigste event die niet werkte was device-motion. Dus ik heb alleen de events click, double-click, key-down en long-press.
+Om kleuren van knoppen te veranderen heb ik verschillende experimenten met event listeners gedaan. Device-motion was het enige event die niet was gelukt. Dus ik heb alleen de events click, double-click, key-down en long-press.
 
 **Begin scherm**
 
@@ -38,7 +38,6 @@ Ik heb een handleiding gemaakt, zodat het duidelijker wordt wat de gebruiker met
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_27_01](https://user-images.githubusercontent.com/69635977/155848776-06884a11-5916-46e5-869d-f336ea62cd4f.png)
 
-### Click event
 <!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
 <!-- Voeg een mooie poster visual toe 📸 per experiment -->
 
