@@ -28,14 +28,14 @@ buttons.forEach(button => {
 
 	// Double click event listener
 	button.addEventListener('dblclick', function() { 
-		button.classList.add('cyan')
+		button.classList.add('green')
 	})
 
 	// Keydown event listener
 	window.addEventListener('keydown', function(event) { 
 		if (event.key === 'z') {
 			button.classList.remove('purple')
-			button.classList.remove('cyan')
+			button.classList.remove('green')
 			button.classList.remove('orange')
 		}
 	})

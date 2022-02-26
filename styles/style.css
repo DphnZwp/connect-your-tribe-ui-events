@@ -121,7 +121,7 @@ a:focus {
 	border:var(--secondary);
 }
 
-.cyan {
+.green {
 	background:var(--highlight-primary);
 	color: var(--secondary);
 }
