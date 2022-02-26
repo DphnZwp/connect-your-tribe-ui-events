@@ -26,6 +26,7 @@ Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconde
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-20_02_21](https://user-images.githubusercontent.com/69635977/155855837-c16fde89-bcc8-47c9-9303-51e232abda8d.png)
 
 ### Handleiding
+Ik heb een handleiding gemaakt, zodat het duidelijker wordt wat de gebruiker met de knoppen kan.
 
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-16_27_01](https://user-images.githubusercontent.com/69635977/155848776-06884a11-5916-46e5-869d-f336ea62cd4f.png)
 
