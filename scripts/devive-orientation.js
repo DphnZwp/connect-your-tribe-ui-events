@@ -26,5 +26,5 @@ function deviceMotionHandler(eventData) {
 
   // Apply the 2D rotation and 3D rotation to the image
   var rotation = "rotate(" + tiltLR + "deg) rotate3d(1,0,0, " + (tiltFB) + "deg)";
-  document.getElementById("imgLogo").style.webkitTransform = rotation;
+  document.getElementById("imgLogo").style.transform = rotation;
 }
