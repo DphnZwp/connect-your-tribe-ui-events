@@ -20,6 +20,8 @@ Hier zijn alle experimenten die ik heb gedaan voor de drie verschillende event l
 
 ### Click
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
+
+**Code**
 ```javascript
 	// Single click event listener
 	button.addEventListener('click', function() {
