@@ -18,10 +18,14 @@ Om kleuren van knoppen te veranderen heb ik verschillende experimenten met event
 ## Experimenten
 Hier zijn alle experimenten die ik heb gedaan voor de drie verschillende event listeners.
 
+### Voorbereiding voor event listeners
+Eerst heb ik een const gemaakt genaamd: ```const buttons = document.querySelectorAll('a')```, zodat ik alle knoppen kon aanroepen. Daarna heb ik een buttons.forEach(button => {...}), zodat ik elke button apart kon aanroepen.
+
 ### Click
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
 
-**Code**
+#### Javascript code
+Voor de javascript heb ik de method addEventListener() gebruikt met het type click. Met deze event listener voeg ik de class purple toe wanneer je op een knop klikt.
 ```javascript
 	// Single click event listener
 	button.addEventListener('click', function() {
