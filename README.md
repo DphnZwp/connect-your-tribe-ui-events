@@ -20,7 +20,12 @@ Hier zijn alle experimenten die ik heb gedaan voor de drie verschillende event l
 
 ### Click
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
-
+```javascript
+	// Single click event listener
+	button.addEventListener('click', function() {
+		button.classList.add('purple')
+	})
+  ```
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_39_54](https://user-images.githubusercontent.com/69635977/155851327-e2391c34-f3ea-468a-8a23-c194444dd6c4.png)
 
 ### Double-click
