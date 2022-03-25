@@ -35,13 +35,50 @@ Voor de javascript heb ik de method addEventListener() gebruikt met het type cli
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_39_54](https://user-images.githubusercontent.com/69635977/155851327-e2391c34-f3ea-468a-8a23-c194444dd6c4.png)
 
 ### Double-click
-Je kan de kleur van een knop in groen veranderen wanneer je op een knop dubbel klikt.
+Je kan de kleuren weghalen .
 
+#### Javascript code
+Voor de javascript heb ik de method addEventListener() gebruikt met het type dblclick. Met deze event listener voeg ik de class green toe wanneer je dubbel klikt op een knop.
+```javascript
+	// Double click event listener
+	button.addEventListener('dblclick', function() { 
+		button.classList.add('green')
+	})
+  ```
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-17_55_00](https://user-images.githubusercontent.com/69635977/155851816-13417e7a-25ee-459d-82d8-79ac20e70726.png)
 
+### Key-down
+Je kan de kleuren van alle kleuren terug veranderen naar de orginele kleur wanneer je op de 'z' toets van je toetsenbord drukt.
+
+#### Javascript code
+Voor de javascript heb ik de method addEventListener() gebruikt met het type keydown. Met deze event listener verwijder ik de classes purple, green en orange wanneer je op de 'z' toets van je toetsenbord drukt.
+```javascript
+	// Keydown event listener
+	window.addEventListener('keydown', function(event) { 
+		if (event.key === 'z') {
+			button.classList.remove('purple')
+			button.classList.remove('green')
+			button.classList.remove('orange')
+		}
+	})
+
+  ```
+  
 ### Long-press
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
 
+#### Javascript code
+Voor de javascript heb ik de method addEventListener() gebruikt met het type dblclick. Met deze event listener voeg ik de class orange toe wanneer je langer dan 2 seconden drukt.
+```javascript
+	// Long press
+	// Mousedown event listener
+	button.addEventListener('mousedown', function() {
+		const self = this
+		timer = setTimeout(()=>{
+			self.classList.add('orange')
+		}, 2000)
+	})
+  ```
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-20_02_21](https://user-images.githubusercontent.com/69635977/155855837-c16fde89-bcc8-47c9-9303-51e232abda8d.png)
 
 ### Handleiding
