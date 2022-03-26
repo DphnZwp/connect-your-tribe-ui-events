@@ -19,13 +19,13 @@ Om kleuren van knoppen te veranderen heb ik verschillende experimenten met event
 Hier zijn alle experimenten die ik heb gedaan voor de drie verschillende event listeners.
 
 ### Voordat ik aan de event listeners kon beginnen
-Eerst heb ik een const gemaakt genaamd: ```const buttons = document.querySelectorAll('a')```, zodat ik alle knoppen kon aanroepen. Daarna heb ik een buttons.forEach(button => {...}), zodat ik elke button apart kon aanroepen.
+Eerst heb ik een const gemaakt genaamd: ```const buttons = document.querySelectorAll('a')```, zodat ik alle knoppen kon aanroepen. Daarna heb ik een ```buttons.forEach(button => {...})```, zodat ik elke button apart kon aanroepen.
 
 ### Click
 Je kan de kleur van een knop in paars veranderen wanneer je op een knop klikt.
 
 #### Javascript code
-Voor de javascript heb ik de method addEventListener() gebruikt met het type click. Met deze event listener voeg ik de class purple toe wanneer je op een knop klikt.
+Voor de javascript heb ik de method ```addEventListener()``` gebruikt met het type click. Met deze event listener voeg ik de class purple toe wanneer je op een knop klikt.
 ```javascript
 	// Single click event listener
 	button.addEventListener('click', function() {
@@ -38,7 +38,7 @@ Voor de javascript heb ik de method addEventListener() gebruikt met het type cli
 Je kan de kleuren weghalen .
 
 #### Javascript code
-Voor de javascript heb ik de method addEventListener() gebruikt met het type dblclick. Met deze event listener voeg ik de class green toe wanneer je dubbel klikt op een knop.
+Voor de javascript heb ik de method ```addEventListener()``` gebruikt met het type dblclick. Met deze event listener voeg ik de class green toe wanneer je dubbel klikt op een knop.
 ```javascript
 	// Double click event listener
 	button.addEventListener('dblclick', function() { 
@@ -51,7 +51,7 @@ Voor de javascript heb ik de method addEventListener() gebruikt met het type dbl
 Je kan de kleuren van alle kleuren terug veranderen naar de orginele kleur wanneer je op de 'z' toets van je toetsenbord drukt.
 
 #### Javascript code
-Voor de javascript heb ik de method addEventListener() gebruikt met het type keydown. Met deze event listener verwijder ik de classes purple, green en orange wanneer je op de 'z' toets van je toetsenbord drukt.
+Voor de javascript heb ik de method ```addEventListener()``` gebruikt met het type keydown. Met deze event listener verwijder ik de classes purple, green en orange wanneer je op de 'z' toets van je toetsenbord drukt.
 ```javascript
 	// Keydown event listener
 	window.addEventListener('keydown', function(event) { 
@@ -67,7 +67,7 @@ Voor de javascript heb ik de method addEventListener() gebruikt met het type key
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
 
 #### Mouseup
-Voor de javascript heb ik de method addEventListener() gemaakt met het type mouseup zodat de button geen kleur krijgt wanneer je niet langer dan 2 seconden drukt. Deze event listener heeft een clearTimeout met de parameter timer (```clearTimeout(timer)``` in de code), zodat ik timer kan gebruiken voor de event listener van mousedown. 
+Voor de javascript heb ik de method ```addEventListener()``` gemaakt met het type mouseup zodat de button geen kleur krijgt wanneer je niet langer dan 2 seconden drukt. Deze event listener heeft een clearTimeout met de parameter timer (```clearTimeout(timer)``` in de code), zodat ik timer kan gebruiken voor de event listener van mousedown. 
 
 #### Mousedown
 In de event listener met het type mousedown voeg ik de class orange toe wanneer je langer dan 2 seconden drukt. ```const self = this``` verwijst naar de button. Dan kan je de self variabel in een timer zetten. De timer heeft een setTimeout van 2 seconden, zodat de class orange na 2 seconden toegevoegd wordt. 
