@@ -61,14 +61,18 @@ Voor de javascript heb ik de method addEventListener() gebruikt met het type key
 			button.classList.remove('orange')
 		}
 	})
-
   ```
   
 ### Long-press
 Je kan de kleur van de knop in oranje veranderen wanneer je langer dan 2 seconden op een knop klikt.
 
+#### Mouseup
+Eerst heb ik een event listener gemaakt met het type mouseup zodat de button geen kleur krijgt wanneer je niet langer dan 2 seconden drukt. Deze event listener heeft een clearTimeout met de parameter timer, zodat ik timer kan gebruiken voor de event listener van mousedown. 
+
+#### Mousedown
+In de event listener met type mousedown voeg ik de class orange toe wanneer je langer dan 2 seconden drukt. ```const self = this``` verwijst naar de button. Dan kan je de self variabel in een timer zetten. De timer heeft een setTimeout van 2 seconden. 
+
 #### Javascript code
-Voor de javascript heb ik de method addEventListener() gebruikt met het type dblclick. Met deze event listener voeg ik de class orange toe wanneer je langer dan 2 seconden drukt.
 ```javascript
 	// Long press
 	// Mousedown event listener
@@ -77,6 +81,11 @@ Voor de javascript heb ik de method addEventListener() gebruikt met het type dbl
 		timer = setTimeout(()=>{
 			self.classList.add('orange')
 		}, 2000)
+	})
+	
+	// Mouseup event listener
+	button.addEventListener('mouseup', function() {
+		clearTimeout(timer)
 	})
   ```
 ![screencapture-127-0-0-1-5500-index-html-2022-02-26-20_02_21](https://user-images.githubusercontent.com/69635977/155855837-c16fde89-bcc8-47c9-9303-51e232abda8d.png)
